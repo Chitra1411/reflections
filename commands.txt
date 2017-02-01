@@ -1,2 +1,14 @@
 // to config notepad++
 git config --global core.editor "'C:/Program Files (x86)/Notepad++/notepad++.exe' -multiInst -notabbar -nosession -noPlugin"
+
+//compare two commit ids
+git diff 1st_id 2nd_id
+
+//compare working directory files with staging area files(if u forget what changes u made n need to be written in commit msg)
+git diff
+
+//compare staging area files with commit files (to make sure files are really what u want to commit)
+git diff --staged
+
+//discard changes 
+git reset --hard
