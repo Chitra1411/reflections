@@ -16,9 +16,14 @@ organized? How would branches help?
 Branches would be helpful while trying test cases.
 
 How do the diagrams help you visualize the branch structure?
+they helpus visualize history of all the commits made easily so we can track which commits are reachable and which are not.
+also helps to know which branch contains which commits.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
+by merging two branches together we can add changes made by branches into actual project.bcz it creates path to both branche's commits.
 
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
+pros--save time from merging with no conflicts
+cons--

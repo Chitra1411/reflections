@@ -12,3 +12,24 @@ git diff --staged
 
 //discard changes 
 git reset --hard
+
+//show branches
+git branch 
+
+//create a branch
+git branch name
+
+//switch to a branch
+git checkout branch_name
+
+//visualize bbranch structure......to make output short and easy....which bbranches to visualize
+git log --graph  --oneline master coins 
+
+//to create merge
+git merge master coins
+
+//show which changes were introduced by a commit compared to its parrent
+git show commit_id
+
+//delete branch
+git branch -d coins
